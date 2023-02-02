@@ -54,6 +54,10 @@ body{
     box-shadow: 1px 1px 5px black;
 }
 
+.botao:hover{
+    background-color: yellowgreen;
+}
+
 @media screen and (min-width: 600px) {
     body{
         width: 100%;
