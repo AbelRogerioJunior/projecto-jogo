@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=J, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 style="margin-bottom: 10px;">JOGO DE <span class="color-header">X</span> e <span class="color-header">0</span></h1>
+        <p>Seja Bem-Vindo & Devirta-se!</p>
+    </header>
+    <nav class="nav-bar">
+        <h2 class="player">Vez do Player <output style="color: rgb(0, 255, 166);" id="saida">X</output> jogar</h2>
+    </nav>
+
+    <nav class="nav-bar">
+        <h2 style="font-size: 16pt; text-align: center;" class="player" id="fimJogo">Clique Para iniciar</h2>
+    </nav>
+    <main class="main">
+        
+        <div class="container">
+            <button onclick="jogar_btn1()" id="btn-1" class="botao"></button>
+            <button onclick="jogar_btn2()" id="btn-2" class="botao"></button>
+            <button onclick="jogar_btn3()" id="btn-3" class="botao"></button>
+            <button onclick="jogar_btn4()" id="btn-4" class="botao"></button>
+            <button onclick="jogar_btn5()" id="btn-5" class="botao"></button>
+            <button onclick="jogar_btn6()" id="btn-6" class="botao"></button>
+            <button onclick="jogar_btn7()" id="btn-7" class="botao"></button>
+            <button onclick="jogar_btn8()" id="btn-8" class="botao"></button>
+            <button onclick="jogar_btn9()" id="btn-9" class="botao"></button>
+        </div>
+    </main>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>
