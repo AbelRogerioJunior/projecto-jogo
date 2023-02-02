@@ -41,10 +41,14 @@ body{
     margin: auto;
 }
 
+span{
+    display: inline-block;
+}
+
 .botao{
     background-color: rgb(57, 1, 135);
     transform: translateX(30%);
-    font-size: 60%;
+    
     color: white;
     padding: 12%;
     border: none;
